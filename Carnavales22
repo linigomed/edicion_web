@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name=“description” content=“Recetas, vestidos, programa para este carnamal, ideas de disfraces”/>
+    <meta name=“keywords” content=“las palmas, gc, LP, GC, carnaval, carnavales, disfraces, tortitas, receta, disfraz, programa, 2022, 22, vestidos”/>
+    <meta name="author" content="Lala inimed" />
+    <meta name="copyright" content="Lala inimed" />
+    <meta name="robots" content="index"/>
+    <title>Carnavales</title>
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <link rel="shortcut icon" href="img/favicon%20(1).ico" type="image/x-icon">
+<link rel="icon" href="img/favicon%20(1).ico" type="image/x-icon">
+    
+    <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  display: inline;
+}
+
+
+
+a{
+    color: white;
+}
+
+header{
+    background-color: #5C0D23;
+    color: antiquewhite;
+    padding: 1%;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    padding-top: 3%;
+}
+
+nav{
+    background-color: #E16387;
+    color: antiquewhite;
+    height: auto;
+    font-size: 1.5em;
+    
+}
+
+main{
+    background-color: black;
+    padding: 1%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+   
+}
+
+section{
+    background-color: #DB1E52;
+    color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+}
+
+
+article{
+    width: 300px;
+    background-color: #5C2837;
+    color: antiquewhite;
+    height: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+   
+}
+
+footer{
+    background-color: #A81841;
+    color: antiquewhite;
+    clear: both;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E16387; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+}
+
+li a:hover {
+    background-color:  #5C2837;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  
+}
+
+
+#vestid{
+    width: 42.8%;
+    height: 300px;
+    color: white;
+    background-color: #5C2837;
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-right:auto;
+    margin-left:auto;
+    font-size: 1em; 
+}    
+.pe{
+    margin-top: 88px;
+    float: right;
+    margin-right:120px;
+    font-size: 1.5em;
+}
+
+p{
+ 
+    float: right;
+    margin-right:40px;
+    
+}
+
+#torti{
+    height: 600px;
+    width: 92.1%;
+    background-color: #5C2837;
+    color: white;
+    margin-right:auto;
+    margin-left:auto;
+    font-size: 1.5em; 
+    margin-top: 10px;
+    margin-top: 5%;
+}
+
+#torti:hover{
+
+background-color: #512031;
+
+}
+
+#torti img{
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+#torti img:hover{
+    
+webkit-transform: scale(1.3);transform:scale(1.1);
+
+overflow:hidden; 
+
+}
+
+.patito{
+    padding: 30px;
+    float: left;
+    margin-top: 6%
+}
+
+.patito2{
+    padding: 30px;
+        float: left;
+    margin-top: -3.5%;
+}
+
+
+
+
+#dis{
+   margin-right:auto;
+    margin-left:auto;
+    margin-top: 5%;
+}
+
+section:hover{
+
+webkit-transform: scale(1.3);transform:scale(1.3);
+
+overflow:hidden; 
+
+}
+
+article:hover{
+    
+webkit-transform: scale(1.3);transform:scale(1.3);
+
+overflow:hidden; 
+
+}
+
+#vestid img:hover{
+
+transform: rotateY(180deg);
+
+transform-style: preserve-3d;
+
+}
+
+#paquito{
+    text-align: center;
+    margin:auto;
+    background-color: black;
+    padding-top:3%;
+    width: 100%;
+}
+
+#ancla{
+    background-color: black;
+    width: 100%;
+}
+
+#prom{
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.flip-card { /* carta invertida*/
+
+  margin: auto;
+
+  background-color: transparent;
+
+  width: 300px;
+
+  height: 300px;
+
+  border: 0px solid #f1f1f1;
+
+  perspective: 1000px; /* Elimina esto si no quieres el efecto 3D*/
+
+}
+
+
+
+/* Este contenedor es necesario para colocar el anverso y el reverso*/
+
+.flip-card-inner {  /* carta invertida interior*/
+
+  position: relative;
+
+  width: 100%;
+
+  height: 100%;
+
+  text-align: center;
+
+  transition: transform 0.8s;
+
+  transform-style: preserve-3d;
+  
+
+}
+
+
+
+/* Haga un giro horizontal cuando mueva el mouse sobre el contenedor de la caja de volteo*/
+
+.flip-card:hover .flip-card-inner {
+
+  transform: rotateY(180deg);
+
+}
+
+
+
+/* Posición del el anverso y el reverso*/
+
+.flip-card-front, .flip-card-back { /* carta invertida frontal,   carta invertida posterior*/
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 100%;
+
+  -webkit-backface-visibility: hidden; /* Safari */
+
+  backface-visibility: hidden;
+   
+
+}
+
+
+
+/* Color de fondo y de texto del anverso y el reverso */
+
+.flip-card-front {
+
+  background-color: #bbb;
+
+  color: black;
+
+}
+
+
+
+/* Dale estilo a la parte de atrás*/
+
+.flip-card-back {
+    
+   background-color: #E16387;
+  color: white;
+    text-align: center;
+  transform: rotateY(180deg);
+
+}
+.flip-card-back h1{
+    margin-top: 28%;
+}
+</style>
+    
+</head>
+
+<body>
+    <header>
+            
+        <h1>CARNAVALES</h1>
+       
+        <nav> 
+            <ul>
+                    <li><a href="#gali">Galería</a></li>
+                    <li><a href="#vesti">Vota por el mejor vestido</a></li>
+                    <li><a href="#disfri" >Ideas para disfraces</a></li>
+                    <li><a href="#torti" >Tortitas de carnaval</a></li>
+                    <li><a href="#hori">Horarios fiestas</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+     <div id="ancla">   m 
+     <a name="gali"></a>
+    </div>
+    
+    <div id="paquito">
+      
+                <picture> <!-- Imagen --> 
+
+                    <source media="(min-width: 1100px)"srcset="img/pic1.jpg" > 
+
+                    <source media="(min-width: 1000px)" srcset="img/pic2.jpg"> 
+
+                    <source media="(min-width: 800px)" srcset="img/pic3.jpg">
+
+                    <source media="(min-width: 600px)" srcset="img/pic4.jpg"> 
+
+                    <img src="img/pic5.jpg" alt="shaum">
+  
+                </picture>
+              
+            </div>
+    
+    
+    <main>
+        
+        <section><img src="img/carnavales1.jpg" width="100%"></section>
+        <section><img src="img/carnavales2.jpg" width="100%"></section>
+        <section><img src="img/carnavales3.jpg" width="100%"></section>
+        <section><img src="img/carnavales4.jpg" width="100%"></section>
+        <section><img src="img/carnavales5.jpg" width="100%"></section>
+        <section><img src="img/carnavales11.jpg" width="100%"></section>
+        
+        
+        
+        <article><img src="img/carnavales6.jpg" width="100%"></article>
+        <article><img src="img/carnavales7.jpg" width="100%"></article>
+        <article><img src="img/carnavales8.jpg" width="100%"></article>
+        <article><img src="img/carnavales9.jpg" width="100%"></article>
+        <article><img src="img/carnavales10.jpg" width="100%"></article>
+        <article><img src="img/carnavales12.jpg" width="100%"></article>
+  
+
+    
+    <div id="ancla">
+    <a name="vesti"></a>
+    </div> 
+    
+       
+            <div id="vestid">
+            
+               
+         
+               <img src="img/vestidor.jpg">
+                <p class="pe"> 
+                   La Reina del Carnaval <br>de Santa Cruz de Tenerife, <br> Sara Cruz, <br> y su diseñador, Sedomir <br>Rodríguez de la Sierra.
+                </p>
+                
+            </div> 
+       
+        
+            <div id="vestid">
+            
+                <img src="img/vestodo2.PNG">
+                <p class="pe">Vestido del diseñador <br> Juan Carlos Armas </p>
+               
+            
+            </div> 
+        
+        
+        
+            <div id="vestid">
+            
+                <img src="img/vestido3.PNG">
+                <p class="pe">Vestido del diseñador <br> Leo Martínez y accesorios <br> de Roselinde </p>
+               
+            
+            </div> 
+        
+        
+            <div id="vestid">
+            
+                <img src="img/vestido4.PNG">
+                <p class="pe">Vestido del diseñador <br> Santi Castro </p>
+                
+            
+            </div> 
+        
+        
+    <div id="ancla"><a name="disfri"></a></div> 
+    
+    
+        <div id="dis"> 
+            <iframe width="1080" height="720" src="https://www.youtube.com/embed/yINKS0qkyjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            
+        <div id="dis">
+            <iframe width="1080" height="720" src="https://www.youtube.com/embed/eU8_x0R4mcg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+            
+        <div id="dis">
+            <iframe width="1080" height="720" src="https://www.youtube.com/embed/gAs2X_0piJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+  
+    
+    
+    
+    <div id="ancla">
+     <a name="torti"></a>
+    </div>
+        
+          <div id="torti">
+           
+            <img src="img/tortitas_carnaval.jpg" align="left" height="300px">
+            <p class="patito">12 huevos
+            1200 gramos de harina<br>
+            45 cucharadas colmadas de azúcar<br>
+            750 mililitros de leche<br>
+            Una copita de anís o Marie Brizard<br>
+            3 cucharadita de canela en polvo<br>
+            La ralladura de un limón<br>
+            Unos granos de anís machacados<br>
+            Aceite de girasol para freír<br></p>
+        
+           <p class="patito2"> En un vaso triturador ponemos los huevos
+               y añadimos el azúcar,
+              la ralladura de un limón
+               y la canela en polvo.
+              Añadimos también el anís machacado en un mortero, la copa de anís o Marie Brizard
+              y la harina
+             y trituramos bien añadiendo finalmente la leche.
+              Dejamos reposar la masa unos minutos.
+              En una sartén con abundante aceite de girasol hasta que esté bien caliente y con ayuda de un cazo vamos introduciendo porciones de masa para freírla.
+              Le damos la vuelta hasta que queden doraditas 
+              y las ponemos sobre un papel absorbente.
+              Para tomar estas tortillas de Carnaval les pondremos un poco de miel o melaza.
+              Si te apetece puedes también rebozarlas en azúcar cuando están aún calientes.</p>
+        </div> 
+    
+    
+    <div id="ancla">
+    
+    <a name="hori"></a>
+    
+    </div> 
+    
+    
+    
+     
+        <div id="prom">
+            <img src="img/programa.PNG" height="1400px">
+        </div>
+        
+            
+            
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+
+                        <div class="flip-card-front">
+                            <img src="img/meme.jpg" alt="Avatar" style="width:300px;height:300px;">
+                        </div>
+
+                        <div class="flip-card-back">
+                             <h1>Hasta el <br>próximo año :) </h1> 
+                        </div>
+
+                    </div>
+
+                </div>
+
+          
+        
+        
+    </main>
+    
+    <footer>
+      &nbsp; &nbsp; &nbsp; &nbsp; Carnavales, Las Palmas GC 2022
+    </footer>
+    
+    
+</body>
+
+
+
+
+</html>
